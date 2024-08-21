@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Before the script...</p>
+    <button onclick="a()">btn</button>
+    <script>
+        document.write('Hello, World!');
+        alert('Hello, World!');
+        console.log('Hello, World!');
+
+        var value = 50;
+        
+
+        // function a(){
+        //     alert(value);
+        // }
+        // function sayHello(){
+        //     for(var i =0; i<5; i++){
+        //         console.log(i);
+        //     }
+        // }
+        // sayHello();
+
+        // function sayHillo(){
+        //     for(var i =0; i<5; i++){
+        //         console.log(i);
+        //     }
+        //     console.log(i);
+        // }
+
+
+        // Let
+        // function sayHillo(){
+        //     for(let i =0; i<5; i++){
+        //         console.log(i);
+        //     }
+        //     console.log(i);
+        // }
+
+        // sayHillo();
+
+
+        // // Const 
+        // function sayHillo(){
+        //     for(const i =0; i<5; i++){
+        //         console.log(i);
+        //     }
+        //     console.log(i);
+        // }
+
+        // sayHillo();
+
+
+        class Student{
+    constructor(name, age){
+        this.n = name;
+        this.a = age;
+    }
+    stu(){
+        console.log("Name of the student is "+ this.n);
+        console.log("Age of the student is "+ this.a);
+    }
+}
+
+var std = new Student("Amar",23);
+std.stu();
+    </script>
+    <p>...After the script </p>
+</body>
+</html>
