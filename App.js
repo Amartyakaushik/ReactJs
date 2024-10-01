@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-// import logo from './LpuLogo.png';
 import './App.css';
 
 function App() {
@@ -16,10 +15,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Amartya Padhega React
+          Learn React
         </a>
-
-        
       </header>
     </div>
   );
