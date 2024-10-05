@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,6 +8,34 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <p>Before the script...</p>
+    <button onclick="a()">btn</button>
+    <script>
+      document.write("Hello, World!");
+      alert("Hello, World!");
+      console.log("Hello, World!");
+
+      var value = 50;
+
+      // Example function
+      function a() {
+        alert(value);
+      }
+
+      class Student {
+        constructor(name, age) {
+          this.n = name;
+          this.a = age;
+        }
+        stu() {
+          console.log("Name of the student is " + this.n);
+          console.log("Age of the student is " + this.a);
+        }
+      }
+
+      var std = new Student("Amar", 23);
+      std.stu();
+    </script>
+    <p>...After the script</p>
   </body>
 </html>

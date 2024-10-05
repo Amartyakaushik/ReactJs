@@ -1,0 +1,36 @@
+.calculator {
+  width: 200px;
+  margin: 100px auto;
+  text-align: center;
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.display {
+  height: 50px;
+  background-color: #222;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.keypad button {
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  font-size: 1.2em;
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+}
+
+.keypad button:hover {
+  background-color: #bbb;
+}
+
+button:focus {
+  outline: none;
+}
