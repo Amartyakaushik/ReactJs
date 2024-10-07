@@ -16,13 +16,13 @@ import ReactDom from 'react-dom/client';
 // import Destructure from './CA/destructure';
 
 // state
-import Hooks from './State/Hooks';
-import Counter from './State/CounterApp';
-import StateExampleArray from './State/StateExampleArray';
-import UpdateStateUsingObject from './State/UpdateStateUsingObject';
+import Hooks from './State/Hooks.jsx';
+import Counter from './State/CounterApp.jsx';
+import StateExampleArray from './State/StateExampleArray.jsx';
+import UpdateStateUsingObject from './State/UpdateStateUsingObject.jsx';
 
 // UseState examples   05 oct
-import UseStateExm from './State/useStateExamples';
+import UseStateExm from './State/useStateExamples.jsx';
 
 // function HelloWorld(){
 //   const list = [
