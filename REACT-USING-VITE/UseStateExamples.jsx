@@ -6,7 +6,7 @@ const UseStateExm = (props) => {
         <>
             <div>
             {props.users.map((user) => (
-                <UserData {...user} key={user.id} increaseAge= {props.increaseAge}  />
+                <UserData {...user} key={user.id} increaseTheAge= {props.increaseThisAge}  decreaseTheAge = {props.decreaseThisAge} deleteTheUser = {props.deleteThisUser} />
             )
             )}
             </div>
